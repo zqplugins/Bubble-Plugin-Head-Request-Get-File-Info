@@ -1,0 +1,34 @@
+{
+    "category": "plugins",
+    "display": "Get File Info",
+    "fields": {
+        "AAI": {
+            "caption": "File URL",
+            "editor": "DynamicValue",
+            "name": "file_url",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAJ": {
+            "caption": "Content-Type",
+            "name": "content_type",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Content-Length",
+            "name": "content_length",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAL": {
+            "caption": "Last-Modified",
+            "name": "last_modified",
+            "rank": 2,
+            "value": "date"
+        }
+    },
+    "type": "server_side"
+}

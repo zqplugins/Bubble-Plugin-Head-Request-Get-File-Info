@@ -1,0 +1,18 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "productivity",
+        "2": "technical",
+        "3": "analytics",
+        "4": "containers"
+    },
+    "data_tracked": false,
+    "demo_page": "https://bubble.io/page?id=pluginpreview&tab=tabs-1&name=headfileinfo&type=page",
+    "description": "Generate a Head Request to url and give back informations about a file. \nContent-Type\nContent-Length (in bytes)\nLast-Modified\n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/head-request--get-file-info-plugin-for-bubble-1728508167236x123798577270624040\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//s3.amazonaws.com/appforest_uf/f1657036399072x335969177305066600/information2.png",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Head Request / Get File Info",
+    "plugin_instructions": "Ther's two way to get file info: Using an Action or using element on a page\n\nElement: Drop \"FileInfo\" element and complete the \"File url\" field. Plugin will return info in states of the element.\n\nAction: Use \"Get File Info\" action. This will return the values of the file that can be used in next action.\n\n*** A CORS issue can happen using element. This will not happen with action because the call is server side. ",
+    "sa_node_version": 18
+}
